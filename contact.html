@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <meta
+      name="description"
+      content="Contact Neda. Neda ia a Front-end engineer"
+    />
+    <title>Contact Neda Ahmadi</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -41,6 +47,37 @@
     <link rel="stylesheet" href="style/portfolio.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Neda logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Neda logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home </a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Neda">About </a>
+          </li>
+          <li>
+            <a href="/work.html" title="Neda's work"> work </a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Neda"> Contact </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -62,5 +99,51 @@
         </p>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box d-flex justify-content-between">
+        <dive>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work togather</p>
+        </dive>
+        <div>
+          <a href="/contact.html" class="btn btn-branding" title="Contact Neda"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:nedahmadi83@gmail.com"
+          class="email-link"
+          title="Email Neda"
+        >
+          nedahmadi83@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a href="https://www.instagram.com/n_ahmadi100" target="_blank">
+          <i class="fab fa-instagram" title="Instagram Profile"></i>
+        </a>
+        <a
+          href="https://www.github.com/neda"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="-blank"
+          title="Twitter Profile"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+
+      <p class="text-center mt-4">
+        ✌This project was coded by Neda Ahmadi, and it is
+        <a href="https://github.com" target="_blank"> open-sourced</a>
+      </p>
+    </footer>
   </body>
 </html>

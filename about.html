@@ -41,6 +41,37 @@
     <link rel="stylesheet" href="style/portfolio.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Neda logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Neda logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home </a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Neda">About </a>
+          </li>
+          <li>
+            <a href="/work.html" title="Neda's work"> work </a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Neda"> Contact </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -52,7 +83,7 @@
               I’m open to work remotely and have flexible hours. I’m highly
               skilled in JavaScript and React.
             </p>
-            <a href="" class="btn btn-branding"> See my projects</a>
+            <a href="/work.html" class="btn btn-branding"> See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -60,5 +91,51 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box d-flex justify-content-between">
+        <dive>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work togather</p>
+        </dive>
+        <div>
+          <a href="/contact.html" class="btn btn-branding" title="Contact Neda"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:nedahmadi83@gmail.com"
+          class="email-link"
+          title="Email Neda"
+        >
+          nedahmadi83@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a href="https://www.instagram.com/n_ahmadi100" target="_blank">
+          <i class="fab fa-instagram" title="Instagram Profile"></i>
+        </a>
+        <a
+          href="https://www.github.com/neda"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="-blank"
+          title="Twitter Profile"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+
+      <p class="text-center mt-4">
+        ✌This project was coded by Neda Ahmadi, and it is
+        <a href="https://github.com" target="_blank"> open-sourced</a>
+      </p>
+    </footer>
   </body>
 </html>
